@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ffi-compiler
+Source: https://github.com/ffi/ffi-compiler
+
+Files: *
+Copyright: Wayne Meissner <wmeissner@gmail.com>
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2020 Utkarsh Gupta <utkarsh@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, a copy of Apache-2.0 license can be
+ found at /usr/share/common-licenses/Apache-2.0.

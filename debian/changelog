@@ -1,0 +1,26 @@
+ruby-ffi-compiler (1.0.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Remove patch on request of Antonio Terceiro. The situation is more
+    complex and might need further investigation.
+
+ -- Daniel Leidert <dleidert@debian.org>  Sat, 11 Apr 2020 14:42:18 +0200
+
+ruby-ffi-compiler (1.0.1-3) unstable; urgency=medium
+
+  * Add patch to fix build for http-parser
+    - Thanks to Antonio Terceiro :)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Fri, 03 Apr 2020 03:01:45 +0530
+
+ruby-ffi-compiler (1.0.1-2) unstable; urgency=medium
+
+  * Source-only upload
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Thu, 02 Apr 2020 23:35:27 +0530
+
+ruby-ffi-compiler (1.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #955497)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Wed, 01 Apr 2020 21:23:44 +0530

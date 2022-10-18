@@ -1,0 +1,29 @@
+Source: ruby-ffi-compiler
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb (>= 1),
+               rake,
+               ruby-ffi (>= 1.0.0)
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ffi-compiler.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ffi-compiler
+Homepage: https://github.com/ffi/ffi-compiler
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+Rules-Requires-Root: no
+
+Package: ruby-ffi-compiler
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${misc:Depends},
+         ${ruby:Depends},
+         ${shlibs:Depends}
+Description: Automating compilation of native libraries
+ ffi-compiler is a ruby library for automating compilation
+ of native libraries for use with ffi.
+ .
+ To use, define your own ruby->native API using ffi, implement
+ it in C, then use ffi-compiler to compile it.
